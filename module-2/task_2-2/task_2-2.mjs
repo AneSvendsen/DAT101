@@ -3,7 +3,13 @@ import { printOut, newLine } from "../../common/script/utils.mjs";
 
 
 printOut("--- Part 1 ----------------------------------------------------------------------------------------------");
-/* Put your code below here!*/
+const orgMathExp = "2 + 3 * 2 - 4 * 6";
+const newMathExp = "(2 + 3) * 2 - 4 * 6";
+const part1answer = 2 + 3 * (2 - 4) * 6;
+
+printOut(orgMathExp);
+printOut(newMathExp);
+printOut(part1answer);
 printOut(newLine);
 
 printOut("--- Part 2 ----------------------------------------------------------------------------------------------");
