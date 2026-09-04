@@ -9,3 +9,4 @@ const person =
 };
 
 printOut( person.height );
+console.log("hei");
