@@ -11,12 +11,13 @@
     </div>
     <ol>
       <li>Discuss the behavior of part 1, What happens when the wake-up time is not 7 and what happens when it is exactly 7?</li>
-      <p>[Replace this with you answer]</p>
+      <p>When the wake-up time is exactly 7, the condition is true, and the program prints "Take the bus!". If the wake-up time is not 7 (such as 6 or 8), the condition is false, so the if-statement is skipped, and nothing happens.</p>
       <li>Same as question #1. How ever the answer should now be different. Discuss the behavior of part 2, What happens when the wake-up time is not 7 and what happens when it is exactly 7?</li>
-      <p>[Replace this with you answer]</p>
+      <p>In Part 1, JavaScript only checked if wakeUpTime and timeBuss were exactly equal. Therefore, "Take the bus!" only appeared if the time was exactly 7. Changing the time to 6 or 8 left the HTML page completely blank because there was no else statement. In Part 2, the else statement fixes this. If the time is exactly 7, JavaScript still outputs that the bus can be taken. If the time is anything else, like 6 or 8, the else statement ensures that "I have to take the car to school" is displayed instead of a blank page.</p>
       <li>Discuss the behavior of part 3, what happens when wake time is less than 7 or greater than 8?</li>
-      <p>[Replace this with you answer]</p>
+      <p>In Part 3, an else if statement was added to check a third alternative. If wakeUpTime is less than 7 or greater than 8, both the bus and train conditions become false. JavaScript then drops into the else statement and displays "I have to take the car to school."</p>
       <li>Discuss the behavior for part 4, what happens if the number is exactly 0, is zero positive or negative?</li>
+      <p>In Part 4, when testNumber is set to exactly 0, JavaScript evaluates the condition (testNumber >= 0) as true and displays "Positive." Mathematically, zero is neither positive nor negative, but the current code forces it into the positive category because there is no separate check for zero.</p>
     </ol>
     <script type="module" src="./task_3-1.mjs" defer></script>
   </body>
